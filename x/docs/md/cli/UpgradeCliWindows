@@ -1,0 +1,8 @@
+1.	CMD gives the location of the existing exercism.exe file(note the location)
+2.	Go to http://exercism.io/cli/windows
+3.	Once it opens click on Install Alternatives
+4.	Scroll down to Windows Short Version
+5.	Click Download the zip file in the first line
+6.	Scroll down to downloads and select the appropriate file for your OS download it
+7.	Once downloaded, open the file in your zip program and extract it to the location you noted earlier.
+8.	When prompted to replace the existing file, select yes and you’re done
