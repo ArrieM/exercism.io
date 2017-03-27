@@ -59,6 +59,18 @@ By default the CLI will fetch exercises to a directory called `exercism` within 
 ```
 exercism configure --dir=\my-exercism-exercises
 ```
+In Light of issues: exercism/exercism.io#3439 and exercism/cli#381
+
+This is how I solved the windows upgrade issue:
+
+1.	CMD gives the location of the existing exercism.exe file(note the location)
+2.	Go to http://exercism.io/cli/windows
+3.	Once it opens click on Install Alternatives
+4.	Scroll down to Windows Short Version
+5.	Click Download the zip file in the first line
+6.	Scroll down to downloads and select the appropriate file for your OS download it
+7.	Once downloaded, open the file in your zip program and extract it to the location you noted earlier.
+8.	When prompted to replace the existing file, select yes and you’re done
 
 This will fetch your exercises to `C:\Users\your-user-name\my-exercism-exercises`. You could also fetch the exercises to a directory outside of your home directory:
 
@@ -117,3 +129,4 @@ If you experience any problems installing the Exercism CLI, please don't hesitat
 1. [Install Alternatives for instructions on installing manually on windows](/cli/install)
 2. [exercism.io general help](http://exercism.io/help)
 3. [join the exercism.io chat on gitter](https://gitter.im/exercism/support): [![Join the chat at https://gitter.im/exercism/support](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/exercism/support)
+
